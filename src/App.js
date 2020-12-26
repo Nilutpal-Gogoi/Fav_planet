@@ -77,6 +77,7 @@ function App() {
             }
         </Tab>
       </Tabnav>
+      <p className="text">Click on the heart button to select your favourite planet</p>
     </div>
   );
 }
