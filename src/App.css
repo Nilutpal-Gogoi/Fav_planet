@@ -54,7 +54,7 @@ video {
   color: white;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .text {
     text-align: center;
   }
