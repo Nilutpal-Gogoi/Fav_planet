@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="App">
       <video src="/videos/video-1.mp4" autoPlay loop muted></video>
-      <p className="text">Click on the heart button to select your favourite planet</p>
+      <p className="text">Click on the heart button to select and unselect your favourite planet</p>
       <Tabnav tabs={["Planets", "Favourite Planets"]} selected={selected} setSelected={setSelected}>
         <Tab isSelected={selected === "Planets"}>
             {
